@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Cyincore</title>
+  <meta name="description" content="Contact Cyincore for threat intelligence, managed detection and response, or offensive security assessments.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact | Cyincore">
+  <meta property="og:description" content="Get in touch with Cyincore for security services. PGP available for sensitive communications.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cyincore.com/contact">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/logo/logo-white.png" alt="CYINCORE">
+        </a>
+        <div class="nav__menu" id="navMenu">
+          <a href="index.html" class="nav__link">Operations</a>
+          <a href="red.html" class="nav__link nav__link--red">Red Team</a>
+          <a href="ai-platform.html" class="nav__link">AI</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+          <a href="contact.html" class="nav__emergency">
+            <span class="nav__emergency-dot"></span>
+            <span>24/7 Emergency IR</span>
+          </a>
+        </div>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <img src="assets/images/connected-globe.png" alt="">
+      <div class="page-hero__overlay"></div>
+    </div>
+    <div class="container">
+      <div class="page-hero__content">
+        <p class="page-hero__label">Contact</p>
+        <h1 class="page-hero__title">Get in Touch</h1>
+        <p class="page-hero__subtitle">
+          Whether you're facing an active threat, planning a security assessment, or exploring a partnership - we're ready to talk. Reach out directly via email or connect with us on LinkedIn.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section--border contact-section">
+    <div class="container">
+
+      <!-- Secure Communications - above cards -->
+      <div class="contact-pgp-small">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+        <span class="contact-pgp-small__text">PGP available for sensitive communications</span>
+        <code class="contact-pgp-small__fingerprint">715B A977 EE2D E150 015C 2C3E 7AF2 6296 2407 688E</code>
+        <a href="cyincore-public.asc" class="contact-pgp-small__link">Download Key</a>
+      </div>
+
+      <div class="contact-page__grid">
+
+        <!-- General Inquiries -->
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"/>
+              <path d="M22 6L12 13L2 6"/>
+            </svg>
+          </div>
+          <h2 class="contact-card__title">General Inquiries</h2>
+          <p class="contact-card__text">For business inquiries, partnerships, or general questions.</p>
+          <a href="mailto:info@cyincore.com" class="contact-card__email">info@cyincore.com</a>
+        </div>
+
+        <!-- Emergency Response -->
+        <div class="contact-card contact-card--emergency">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+          </div>
+          <h2 class="contact-card__title">Emergency Response</h2>
+          <p class="contact-card__text">Active breach or security incident? Our IR team is available 24/7.</p>
+          <a href="mailto:ir@cyincore.com" class="contact-card__email">ir@cyincore.com</a>
+        </div>
+
+        <!-- Location -->
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h2 class="contact-card__title">Headquarters</h2>
+          <p class="contact-card__text">Based in the UAE with global operational reach.</p>
+          <span class="contact-card__location">United Arab Emirates</span>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </div>
+          <h2 class="contact-card__title">LinkedIn</h2>
+          <p class="contact-card__text">Follow us for updates and insights.</p>
+          <a href="https://www.linkedin.com/company/cyincore" target="_blank" rel="noopener" class="contact-card__link">linkedin.com/company/cyincore</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__slogan">AI-Enhanced Cyber Operations</p>
+        <div class="footer__center">
+          <span class="footer__location">HQ in UAE</span>
+          <span class="footer__separator">·</span>
+          <span class="footer__location">Global Operations</span>
+          <span class="footer__separator">·</span>
+          <span class="footer__copy">© 2026 Cyincore</span>
+        </div>
+        <div class="footer__links">
+          <a href="mailto:info@cyincore.com" class="footer__link">info@cyincore.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
