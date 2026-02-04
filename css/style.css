@@ -312,7 +312,7 @@ a {
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-primary);
   margin-bottom: 24px;
 }
 
@@ -320,7 +320,8 @@ a {
   content: '';
   width: 32px;
   height: 1px;
-  background: var(--accent-silver);
+  background: var(--text-primary);
+  opacity: 0.5;
 }
 
 .hero__title {
@@ -450,11 +451,11 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--accent-blue);
   margin-bottom: 16px;
 }
 
@@ -462,7 +463,8 @@ a {
   content: '';
   width: 24px;
   height: 1px;
-  background: var(--border-default);
+  background: var(--accent-blue);
+  opacity: 0.5;
 }
 
 .section__label--red {
@@ -561,11 +563,11 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--accent-blue);
   margin-bottom: 16px;
 }
 
@@ -573,7 +575,8 @@ a {
   content: '';
   width: 24px;
   height: 1px;
-  background: var(--border-default);
+  background: var(--accent-blue);
+  opacity: 0.5;
 }
 
 .statement-intro__title {
@@ -660,10 +663,10 @@ a {
   display: inline-block;
   font-size: 11px;
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--accent-blue);
   letter-spacing: 0.1em;
   margin-bottom: 24px;
-  opacity: 0.6;
+  opacity: 0.7;
   transition: opacity var(--transition-base);
 }
 
@@ -863,12 +866,30 @@ a {
 }
 
 .content-block__label {
-  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--text-muted);
-  opacity: 0.7;
+  color: var(--accent-blue);
+}
+
+.content-block__label::before {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background: var(--accent-blue);
+  opacity: 0.5;
+}
+
+.content-block__label--red {
+  color: var(--accent-red);
+}
+
+.content-block__label--red::before {
+  background: var(--accent-red);
 }
 
 .content-block__body h3 {
@@ -1196,11 +1217,11 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--accent-blue);
   margin-bottom: 16px;
 }
 
@@ -1208,7 +1229,8 @@ a {
   content: '';
   width: 24px;
   height: 1px;
-  background: var(--accent-silver);
+  background: var(--accent-blue);
+  opacity: 0.5;
 }
 
 .page-hero__label--red {
