@@ -451,7 +451,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -563,7 +563,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -869,7 +869,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1217,7 +1217,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -1568,10 +1568,12 @@ button:focus-visible {
 
 .contact-card--emergency {
   border-color: var(--accent-red-dark);
+  background: rgba(166, 61, 61, 0.08);
 }
 
 .contact-card--emergency:hover {
   border-color: var(--accent-red);
+  background: rgba(166, 61, 61, 0.12);
 }
 
 .contact-card--emergency .contact-card__icon {
